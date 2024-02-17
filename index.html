@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="flex justify-between   lg:py-4 lg:p-2  px-2">
+      <div class="flex justify-center gap-2">
+       <span onclick="chakani()"><i id="fa-bars" class="fa fa-bars  lg:hidden flex text-2xl"></i></span>
+        <h2 class="lg:text-[25px] font-extrabold text-2xl lg:mt-4 lg:ml-10">P-Ticket</h2>
+       </div>
+        <nav class="lg:flex sm:hidden">
+         <ul  id="item-list" class="lg:flex lg:gap-6 hidden  py-4  text-black">
+             <li class="py-3">Home</li>
+             <li class="py-3">About</li>
+             <li class="py-3">Destination</li>
+             <li class="py-3">Search</li>
+            </ul>
+        </nav>
+     <div class="lg:mr-32 ">
+   <button  class="btn bg-[#acedb766] border-[2px] ml-3 text-[#22ff4566] lg:mt-4 font-bold text-[18px] left-32">Bus<img src="images/bus-icon.png"></button>
+</header>
+<main>
+<!----banner section---->
+<section class="py-3 justify-center flex-1 flex">
+<div class=" justify-center items-center">
+<img src="images/banner.png">
+<div class="text-center text-white lg:space-y-5  space-y-2">
+<h2 class="lg:-mt-[450px] -mt-40 lg:text-[56px]  text-[20px] font-bold text-white">End-to-End Travel<br><span class="text-[#22ff45]">with P Paribahan</span></h2>
+<p class="text-10">Yes, you can run unit tests and view the results directly within the<br> app. The integrated testing features allow for a streamlined .</p>
+<button class="bg-[#22ff45] btn border-none">Buy Tickets</button>
+</div>
+</div>
+</section>
+<!---card----->
+<section>
+<div class="flex lg:mt-20 mt-10 justify-center gap-10 flex-col items-center lg:flex-row">
+<div class="w-60 bg-white h-24 flex rounded-2xl border-b-2 border-b-green-500"> <!---1card-->
+<img src="images/people.png">
+<h1 class="text-[30px] font-bold">500K+ <br><span class="text-[12px] font-normal">Registered users</span></h1>
+<p></p>
+</div>
+<div class="w-60 bg-white h-24 flex rounded-2xl  border-b-2 border-b-green-500"> <!---2card-->
+    <img src="images/ticket-cupon.png">
+    <h1 class="text-[30px] font-bold">1.7 lacks <br><span class="text-[12px] font-normal">Tickets sold</span></h1>
+    <p></p>
+    </div>
+    <div class="w-60 bg-white h-24 flex rounded-2xl  border-b-2 border-b-green-500"> <!---3card-->
+        <img src="images/stoppage.png">
+        <h1 class="text-[30px] font-bold">80K+ <br><span class="text-[12px] font-normal">Rental partners</span></h1>
+        <p></p>
+        </div>
+</div>
+</section>
+<!-----Best---offers--section---text---->
+<section class="py-16 justify-center items-center flex">
+<h2 class="text-[22px] font-bold">Best offers for you</h2>
+</section>
+<!-----Best---offers--section---card---->
+<section class="justify-center items-center flex gap-5 lg:flex-row flex-col">
+    <div class="lg:w-96 w-72 h-32 bg-[#FFBF0F]  rounded-2xl">
+
+        <div class="ml-8 mt-6">
+        <h2 class="text-[30px] font-bold">15% OFF</h2>
+        <h4 class="font-bold text-[12px] lg:text[15px]">on your next purchase</h4>
+        <p class="text-[14px] text-[#03061266]">use by January 2024</p>
+        <h1 class="lg:ml-52 ml-40 -mt-20 lg:text-[30px] text-[18px] font-bold">NEW15</h1>
+        <p class="lg:ml-56 ml-44 text-[14px] text-[#03061266]">Coupon Code</p>
+        </div>
+        <div class="text-center flex justify-center items-center">
+        <img class="h-[140px] ml-10 -mt-[102px]"  src="images/info-devider.png">
+        </div>
+        </div>
+<!-----2card---->
+<div class="lg:w-96 w-72 h-32 bg-[#F78C9C]  rounded-2xl">
+
+    <div class="ml-8 mt-6">
+    <h2 class="text-[30px] font-bold">20% OFF</h2>
+    <h4 class="font-bold text-[12px] lg:text[15px]">on your next purchase</h4>
+    <p class="text-[14px] text-[#03061266]">use by January 2024</p>
+    <h1 class="lg:ml-52 ml-40 -mt-20 lg:text-[30px] text-[18px] font-bold">Couple20</h1>
+    <p class="lg:ml-56 ml-44 text-[14px] text-[#03061266]">Coupon Code</p>
+    </div>
+    <div class="text-center flex justify-center items-center">
+    <img class="h-[140px] ml-10 -mt-[102px]"  src="images/info-devider.png">
+    </div>
+    </div>
+</section>
+<!--- See All Offers----->
+<div class="flex justify-center items-center py-10">
+<button class="btn border-green-400 text-green-400">See All Offers</button>
+</div>
+</main>
+
+
+
+
+
+
+<footer>
+
+</footer>
+
+<script src="Scprit.js"></script>
+</body>
+</html>
