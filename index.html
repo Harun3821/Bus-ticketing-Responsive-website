@@ -118,17 +118,17 @@
 </section>
 <!------route--section----->
 <section class="ml-40 flex">
-<div class="bg-[#F7F8F8] w-[580px] rounded-2xl">
+<div class="bg-[#F7F8F8] w-[580px] h-[165px] rounded-2xl">
 <div class="flex justify-between w-[560px]">
 <h2 class="text-[15px] ps-6 text-[#03071299]">Route</h2>
-<p class="text-[20px] font-bold">Dhaka-Sylhet</p>
+<p class="text-[20px] font-semibold">Dhaka-Sylhet</p>
 </div>
 <P class="ps-6 text-[#030712BF]">------------------------------------------------------------------------------------</P>
 <div class="flex justify-between w-[560px]">
-    <h2 class="text-[15px] ps-6 text-[#03071299]">Route</h2>
-    <p class="text-[20px] font-bold">Dhaka-Sylhet</p>
+    <h2 class="text-[15px] ps-6 text-[#03071299]">Departure Time</h2>
+    <p class="text-[20px] font-semibold">9:00PM</p>
     </div>
-<P class="ps-6 text-[#030712BF">------------------------------------------------------------------------------------<P>
+<P class="ps-6 text-[#cccc">------------------------------------------------------------------------------------<P>
 <div class="flex gap-3">
 <button class="btn bg-[#0307120D] text-[#030712CC] ml-5 text-[12px]">Boarding Point - Laxmipur</button>
 <button class="btn bg-[#0307120D] text-[#030712CC]  text-[12px]">Dropping Point - Bogura</button>
@@ -144,7 +144,106 @@
 </div>
 </section>
 
-<!--------------->
+<!-------Select Your Seat section-------->
+<section class="py-6">
+<div class="ml-40 justify-between">
+<h2 class="text-[15px] font-semibold">Select Your Seat</h2>
+<p class="text-[#cccc]">-----------------------------------------------------------------------</p>
+<div class="flex gap-64">
+<div class="flex gap-2">
+<img src="images/seat-gray.png">
+<h2 class="text-[#03071299] font-semibold">Available</h2>
+</div>
+<div class="flex gap-2 text-green-500 font-semibold">
+<img src="images/seat-green-filled.png">
+<h2>Selected</h2>
+</div>
+</div>
+<p class="text-[#cccc]">-----------------------------------------------------------------------</p>
+<button class="btn  bg-[#0307120D] text-[#030712CC]  text-[12px] lg:ml-[370px] px-6">
+<img src="images/tabler-icon-steering-wheel.png">
+</button>
+</section>
+<!---seat number------>
+<section class="py-1 space-y-8">
+<div class="ml-40 flex gap-8">
+        <button class=" bg-none">A</button>
+        <button class="btn px-8">A1</button>
+        <button class="btn px-8">A2</button>
+        <button class="btn px-8">A3</button>
+        <button class="btn px-8">A4</button>
+</div>
+<div class="ml-40 flex gap-8">
+    <button class=" bg-none">B</button>
+    <button class="btn px-8">B1</button>
+    <button class="btn px-8">B2</button>
+    <button class="btn px-8">B3</button>
+    <button class="btn px-8">B4</button>
+</div>
+    <div class="ml-40 flex gap-8">
+        <button class=" bg-none">C</button>
+        <button class="btn px-8">C1</button>
+        <button class="btn px-8">C2</button>
+        <button class="btn px-8">C3</button>
+        <button class="btn px-8">C4</button>
+    </div>
+        <div class="ml-40 flex gap-8">
+            <button class=" bg-none">D</button>
+            <button class="btn px-8">D1</button>
+            <button class="btn px-8">D2</button>
+            <button class="btn px-8">D3</button>
+            <button class="btn px-8">D4</button>
+        </div>
+        <div class="ml-40 flex gap-7">
+            <button class=" bg-none">E</button>
+            <button class="btn px-9">E1</button>
+            <button class="btn px-9">E2</button>
+            <button class="btn px-9">E3</button>
+            <button class="btn px-9">E4</button>
+      </div>
+     
+</section>
+<!------Select Your Seat section---------->
+<section class="lg:ml-52">
+<h1 class="text-center lg:-mt-[550px] font-semibold text-[15px]">Select Your Seat</h1>
+<p class="lg:ml-[480px] text-[#cccc]">-------------------------------------------------------</p>
+</section>
+<!-----info-devider section----------->
+<section class="lg:ml-[640px] flex">
+<img src="images/info-devider.png" class="w-[40px] h-[550px] text-[#030712BF]">
+<div class="w-[365px] h-[280px] bg-[#F7F8F8] rounded-md lg:ml-2">
+<div class="flex gap-24 ml-7 mt-3">
+<h1 class="font-semibold">Seat   <span class="bg-green-400 px-1 rounded-md text-[#ffffff]">2</span></h1>
+<p class="font-semibold">Class</p>
+<h4 class="font-semibold">Price</h4>
+</div>
+<p class="lg:ml-8 text-[#cccc]">-------------------------------------------------</p>
+<div class="flex gap-24 ml-7 text-[#03071299]">
+    <h1>C2</h1>
+    <p>Economoy</p>
+    <h4>550</h4>
+    </div>
+
+    <div class="flex gap-24 ml-7 text-[#03071299]">
+        <h1>C2</h1>
+        <p>Economoy</p>
+        <h4>550</h4>
+        </div>
+<p class="lg:ml-8 text-[#cccc]">-------------------------------------------------</p>
+    <div class="flex justify-between ml-7 font-semibold text-[14px]">
+    <h1>Total Price</h1>
+    <h4>BDT 1100</h4>
+    </div>
+   <div class="mt-4 ml-7 flex justify-between">
+    <input type="text" placeholder="Have any copupon?" class="py-4 rounded-md text-[8px] px-10 outline-none">
+    <button class="btn bg-green-400 px-8 rounded-md">Apply</button>
+   </div>
+   <div class="flex justify-between ml-7 font-semibold text-[14px] mt-5">
+    <h1>Grand Total</h1>
+    <h4>BDT 1100</h4>
+    </div>
+</div>
+</section>
 </main>
 
 
