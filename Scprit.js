@@ -20,12 +20,30 @@ document.getElementById('Card-popup').style.display = 'none';
 
  const buttons = document.querySelectorAll('.btn');
 
- // Add click event listener to each button
- buttons.forEach(button => {
+   buttons.forEach(button => {
    button.addEventListener('click', () => {
-     // Change background color on click
-     button.style.backgroundColor = '#22ff45'; // Change this to whatever color you want
+    
+     button.style.backgroundColor = '#22ff45'; 
    });
  });
 
+// <!-----------------------//
 
+function removeInputAndButton() {
+  const inputField = document.getElementById('input-Field');
+  const ApplyField = document.getElementById('Apply-Field');
+  
+  inputField.remove();
+  ApplyField.remove();
+}
+
+// ---------------setNumber---------------------//
+const buttonSet = document.querySelectorAll('.btn');
+buttonSet.forEach(button => {
+  button.addEventListener('click', function(){
+  const currentText = document.getElementById('current-set');
+  let currentValue = parseInt(currentText.innerText);
+  currentValue -= 1;
+  currentText.innerText = currentValue;
+  })
+})
